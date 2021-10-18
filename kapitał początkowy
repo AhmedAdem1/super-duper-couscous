@@ -1,0 +1,10 @@
+a=int(input(print("kapitał początkowy?")))
+b=int(input(print("miesięcznych wpływów?")))
+c=int(input(print("okresu inwestowania w miesiącach")))
+d=int(c*((int(a)-int(b)+(int(a)*2/100))))
+if d>a:
+    print("idealnie")
+elif d==a:
+    print("nie idealnie")
+elif d<a:
+    print("nie idealnie")
