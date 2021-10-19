@@ -1,0 +1,11 @@
+username='Admin'
+password='1234'
+loop=True
+while loop:
+    a=input(print("swoj login"))
+    b=input(print("swoj password"))
+    if a==username and b==password:
+        print('Pomyślnie zalogowano')
+        loop=False
+    else:
+        print('Nieprawidłowe hasło')
